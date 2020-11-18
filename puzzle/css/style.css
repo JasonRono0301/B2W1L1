@@ -3,9 +3,38 @@ body{
 }
 
 #puzzle{
+	position: relative;
 	width: 600px;
 	height: 400px;
 	margin: 40px;
 	border: 4px solid black;
-
 }
+
+.topleft{
+	position: absolute;
+	left: 0;
+}
+
+.topright{
+	position: absolute;
+	right: 0;
+}
+
+.bottomleft{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.bottomright{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+img:nth-of-type(2){
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
+
